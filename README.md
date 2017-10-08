@@ -23,7 +23,7 @@ Com este procedimento um arquivo será criado na pasta "Models" contendo a estru
 
 $usuarios = Usuario::query()->all();
 
-# Selecionar o usuário cujo nome seja "João"
+## Selecionar o usuário cujo nome seja "João"
 
 $usuario = Usuario::query()->where("nome = 'João'")->first();
 
@@ -37,7 +37,7 @@ Utilizando a função "And":
 
 $usuario = Usuario::query()->where("nome = ", $nome)->and_("idade < 30")->first();
 
-# Pegar um elemento pela chave primária
+## Pegar um elemento pela chave primária
 
 $usuário = Usuario::query()->get(1);
 
