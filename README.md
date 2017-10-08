@@ -19,7 +19,7 @@ Com este procedimento um arquivo será criado na pasta "Models" contendo a estru
   
 # Queries
 
-# Selecionar todos os usuários
+## Selecionar todos os usuários
 
 $usuarios = Usuario::query()->all();
 
