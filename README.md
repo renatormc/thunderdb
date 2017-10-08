@@ -58,8 +58,10 @@ Além disso é necessário declarar a relação na variável "colections" do tip
  Depois para utilizar no código basta fazer o seguinte:
  
  //Para imprimir todos os grupos aos quais "João" pertence
- $usuario = Usuario::query()->where("nome = 'João'")->first();\n
- foreach($usuario->grupos() as $grupo){\n
+ $usuario = Usuario::query()->where("nome = 'João'")->first();
+ 
+ foreach($usuario->grupos() as $grupo){
+ 
   echo $grupo->nome;
  }
  
