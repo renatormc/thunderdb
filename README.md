@@ -48,6 +48,7 @@ Ao definir o modelo é possível definir relações "ManyToOne", "OneToMany" e "
 Por exemplo uma relção de usuário e grupo, que é do tipo "many to many". Para isso dentro da classe "Usuario" definimos um método público:
 
 public function grupos(){
+#
   return self::belongsToMany('Grupo');
 }
 
