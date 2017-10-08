@@ -3,7 +3,7 @@ PHP ORM
 
 ORM simples que pode ser utilizado em projetos PHP standalone. Basta importar para o projeto a pasta "Thunder" e começar a usar.
 
-#Configurando banco de dados
+# Configurando banco de dados
 
 A primeira coisa a ser feita é definir a conexão com o banco de dados, para isto abra o arquibo "config.php" dentro da pasta "Thunder" e defina a senha, usuário e tipod e conexão. A sintaxe é a mesma do PDO, a biblioteca utiliza PDO. 
 
