@@ -45,7 +45,7 @@ $usuário = Usuario::query()->get(1);
 
 Ao definir o modelo é possível definir relações "ManyToOne", "OneToMany" e "ManyToMany"
 
-Por exemplo uma relção de usuário e grupo, que é do tipo "many to many". Para isso dentro da classe "Usuario" definimos um método público:
+Por exemplo uma relação de usuário e grupo, que é do tipo "many to many". Para isso dentro da classe "Usuario" definimos um método público:
 
 public function grupos(){
 #
